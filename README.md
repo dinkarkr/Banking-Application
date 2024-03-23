@@ -7,6 +7,7 @@ Please refer below endpoints for performing the operations:-
 deleteAccount: perform delete request using postman with endpoint => http://localhost:8080/api/accounts/2 -> where 2 is id
 
 CreateAccount: perform post request using postman with endpoint => http://localhost:8080/api/accounts
+
 Body: - {
     "id":2,
     "accountHolderName":"Dinkar",
@@ -19,11 +20,13 @@ GetAllAccount in bank: perform get request using postman with endpoint => http:/
 above operation will return you all the accounts present in list.
 
 Deposit: perform put request using postman with endpoint => http://localhost:8080/api/accounts/2/deposit
+
 Body : - {
     "amount":30000
 }
 
 Withdraw: perform put request using postman with endpoint => http://localhost:8080/api/accounts/1/withdraw
+
 Body : - {
     "amount":3000
 }
