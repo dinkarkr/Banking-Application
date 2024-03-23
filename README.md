@@ -17,6 +17,7 @@ Body: - {
 GetAccount Details: perform get request using postman with endpoint => http://localhost:8080/api/accounts/1 -> where 1 is id
 
 GetAllAccount in bank: perform get request using postman with endpoint => http://localhost:8080/api/accounts
+
 above operation will return you all the accounts present in list.
 
 Deposit: perform put request using postman with endpoint => http://localhost:8080/api/accounts/2/deposit
