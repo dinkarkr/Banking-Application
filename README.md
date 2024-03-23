@@ -1,7 +1,9 @@
 # Banking-Application
 This repository contains a banking application built using SpringBoot, allowing users to perform various operations such as creating an account, getting account details, deleting an account, withdrawing funds, and depositing funds. 
 The Application leverages SpringBoot's powerful features for rapid development and includes RESTful APIs for seamless integration with other systems. Explore the codebase to understand how springBooot can be used to build robust banking applications.
+
 Please refer below endpoints for performing the operations:-
+
 deleteAccount: perform delete request using postman with endpoint => http://localhost:8080/api/accounts/2 -> where 2 is id
 
 CreateAccount: perform post request using postman with endpoint => http://localhost:8080/api/accounts
